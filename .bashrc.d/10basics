@@ -50,8 +50,8 @@ if ! shopt -oq posix; then
     
     if [ -z $BASH_COMPLETION ]; then
         $BASH_COMPLETION/bash_completion
-        if [ -f $BASH_COMPLETION/bash_completion.d/git-completion ]; then
-        	source $BASH_COMPLETION/etc/bash_completion.d/git-completion
+        if [ -f /etc/bash_completion.d/git-completion ]; then
+        	source /etc/bash_completion.d/git-completion
         fi
     fi
 fi
