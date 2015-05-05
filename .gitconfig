@@ -1,0 +1,35 @@
+[core]
+	editor = subl -w
+	autocrlf = input
+	excludesfile = /Users/brendan/.gitignore_global
+[merge]
+	tool = opendiff
+[color]
+	branch = auto
+	status = auto
+	diff = auto
+[alias]
+	br = branch
+  ci = commit
+  co = checkout
+	last = log -1 HEAD
+  paranoid-merge = merge —no-ff —no-commit
+  revert-to-origin = reset —hard ORIG_HEAD
+	st = status
+	undo = reset --soft HEAD^
+	unstage = reset HEAD --
+[user]
+	name = Brendan Dixon
+	email = brendand@microsoft.com
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[push]
+	default = upstream
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
