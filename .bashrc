@@ -1,9 +1,3 @@
-# If not running interactively, don't do anything
-case $- in
-    *i*) ;;
-      *) return;;
-esac
-
 # Load private environment configuration
 [ -f $HOME/.bashrc_private ] && source $HOME/.bashrc_private
 
