@@ -1,0 +1,16 @@
+#---------------------------------------------------------------------------------------
+# Set up aliases
+#---------------------------------------------------------------------------------------
+alias gc="pushd ~/Code/go 1>/dev/null"
+
+alias l='less'
+
+alias ll='ls -lF'
+alias la='ls -AlF'
+
+alias m14='sshfs brendand@brendand-ub14.cloudapp.net:/ /Users/brendan/Code/brendand-ub14 -o auto_cache -o IdentityFile=/Users/brendan/.ssh/azure_rsa'
+alias u14='umount /Users/brendan/Code/brendand-ub14'
+
+alias flushc='dscacheutil -flushcache;sudo killall -HUP mDNSResponder'
+
+alias ?='pwd'

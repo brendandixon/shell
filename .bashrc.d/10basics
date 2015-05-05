@@ -1,0 +1,58 @@
+#---------------------------------------------------------------------------------------
+# Set up standard BASH variables
+#---------------------------------------------------------------------------------------
+export EDITOR="subl"
+export HISTIGNORE=' *:&'
+export LESS='-RnqS'
+export TERM=xterm-color
+
+export GOPATH=$HOME/Code/go
+export GOBIN=$GOPATH/bin
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH:$GOBIN
+
+# Docker exports
+export GOPATH=$GOPATH:$GOPATH/src/github.com/docker/docker/vendor
+export DOCKER_CLIENTONLY=1
+
+#---------------------------------------------------------------------------------------
+# Set up Prompt and LS colors
+#
+# a - black      A - bold black (usually dark grey)
+# b - red        B - bold red
+# c - green      C - bold green
+# d - brown      D - bold brown (usually yellow)
+# e - blue       E - bold blue
+# f - magenta    F - bold magenta
+# g - cyan       G - bold cyan
+# h - light grey H - bold light grey (usually white)
+# x - default
+# 
+# 1 - Directory
+# 2 - Symbolic link
+# 3 - Socket
+# 4 - Pipe
+# 5 - Executable
+# 6 - Block special
+# 7 - Character special
+# 8 - Executable with setuid bit set
+# 9 - Executable with setgid bit set
+# 10 - Directory, writeable to others, with sticky
+# 11 - Directory, writeable to others, without sticky
+#
+# Defaults -     exfxcxdxbxegedabagacad
+#---------------------------------------------------------------------------------------
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+  source $(brew --prefix)/etc/bash_completion.d/git-completion.bash
+fi
+
+if [ "$USER" = "root" ]; then
+  export PS1='\[\e[0;31m\][\u@\h:\W$(__git_ps1 " (\e[35m%s\e[36m)")] \$ \[\e[m\]'
+else
+  export PS1='\[\e[0;36m\][\h:\W$(__git_ps1 " (\e[35m%s\e[36m)")] \$ \[\e[m\]'
+fi
+export PS2='>'
+
+export LC_CTYPE=en_US.UTF-8
+export LSCOLORS='gxexxxxxfxxxxxfxfxgxgx'
+export CLICOLOR=true
