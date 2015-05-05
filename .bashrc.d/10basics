@@ -40,12 +40,12 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH:$GOBIN
 if ! shopt -oq posix; then
 
     BASH_COMPLETION=""
-    if [ -f /usr/share/bash-completion/bash_completion ]; then
+    if [ -f /etc/bash_completion ]; then
+        BASH_COMPLETION/etc
+    elif [ -f /usr/share/bash-completion/bash_completion ]; then
         BASH_COMPLETION=/usr/share/bash-completion
     elif [ -f /usr/local/etc/bash_completion ]; then
     	BASH_COMPLETION=/usr/local/etc
-    elif [ -f /etc/bash_completion ]; then
-        BASH_COMPLETION/etc
     fi
     
     if [ -z $BASH_COMPLETION ]; then
