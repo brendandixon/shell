@@ -31,11 +31,13 @@ backups/
 /.classpath
 .config/
 .dbus/
+.debug/
 .dmrc
 .elinks/
 .emacs.bmk
 .envimprovement/
 .esd_auth
+examples.desktop
 .fontconfig/
 .gconf/
 .gconfd/
@@ -51,6 +53,7 @@ git/
 .htoprc
 .ICEauthority
 *.iml
+index.html
 .irssi/
 .java_history
 .kde/
@@ -61,7 +64,9 @@ git/
 .mysql_history
 .nautilus/
 .npm/
+.pki/
 .post-review-cookies.txt
+.profile
 /.project
 .qws/
 .recently-used
@@ -72,13 +77,17 @@ git/
 .sqlite_history
 .ssh/
 .subversion/
+.systemtap/
 .thumbnails/
 tmp/
 .vboxclient-display.pid
 .vboxclient-seamless.pid
+.vim/
 .viminfo
+.wireshark/
 .Xauthority
 .xsession-errors
+.xsession-errors.old
 .zcompdump
 
 # OS X
