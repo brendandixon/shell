@@ -4,6 +4,6 @@
 # Load general shell initialization
 if [ -d $HOME/.bashrc.d ]; then
     for file in $HOME/.bashrc.d/*; do
-        [-x "$file"] && source "$file"
+        [ -x "$file" ] && source "$file"
     done
 fi
