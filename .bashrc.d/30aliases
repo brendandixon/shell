@@ -1,7 +1,9 @@
 #---------------------------------------------------------------------------------------
 # Set up aliases
 #---------------------------------------------------------------------------------------
-alias gc="pushd ~/Code/go 1>/dev/null"
+alias gc="pushd ~/Code/go/ 1>/dev/null"
+alias ga="pushd ~/Code/go/src/github.com/azure/ 1>/dev/null"
+alias gb="pushd ~/Code/go/src/github.com/brendandixon/ 1>/dev/null"
 
 alias l='less'
 

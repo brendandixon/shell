@@ -1,6 +1,8 @@
 # General
 .android/
+.atom/
 .aws/
+.azure/
 .bashrc_private
 .bundler/
 crontasks
@@ -10,6 +12,7 @@ crontasks
 .irb*
 .local/
 .kindle/
+.m2/
 .rbenv/
 .serverauth.*
 .sqlworkbench/
@@ -115,6 +118,7 @@ Dropbox/
 Library/
 Movies/
 Music/
+OneDrive/
 Pictures/
 Public/
 Sites/
