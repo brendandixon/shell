@@ -6,6 +6,7 @@
 .bashrc_private
 .bundler/
 crontasks
+.docker/
 .gem/
 .gemrc
 .idea/
@@ -13,8 +14,10 @@ crontasks
 .local/
 .kindle/
 .m2/
+.node-gyp/
 .rbenv/
 .serverauth.*
+.streamline/
 .sqlworkbench/
 
 # Linux

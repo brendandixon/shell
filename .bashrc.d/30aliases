@@ -6,7 +6,7 @@ alias dm="docker-machine"
 alias dms="set_docker_machine"
 
 alias gc="pushd ~/Code/go/ 1>/dev/null"
-alias ga="pushd ~/Code/go/src/github.com/azure/ 1>/dev/null"
+alias ga="pushd ~/Code/go/src/github.com/Azure/ 1>/dev/null"
 alias gb="pushd ~/Code/go/src/github.com/brendandixon/ 1>/dev/null"
 
 alias l='less'
