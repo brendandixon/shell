@@ -7,8 +7,9 @@ export LESS='-RnqS'
 export TERM=xterm-color
 
 export GOPATH=$HOME/Code/go
+export GOROOT=/usr/local/opt/go/libexec
 export GOBIN=$GOPATH/bin
-export PATH=/usr/local/bin:/usr/local/sbin:$PATH:$GOBIN
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH:$GOBIN:$GOROOT
 
 # Docker exports
 export GOPATH=$GOPATH:$GOPATH/src/github.com/docker/docker/vendor
