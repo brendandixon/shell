@@ -1,0 +1,4 @@
+if which dnvm.sh > /dev/null
+then
+  source dnvm.sh
+fi
