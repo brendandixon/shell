@@ -6,6 +6,7 @@
 .bashrc_private
 .bundler/
 crontasks
+.dnx/
 .docker/
 .gem/
 .gemrc
@@ -14,11 +15,14 @@ crontasks
 .local/
 .kindle/
 .m2/
+.mono/
 .node-gyp/
+.nuget
 .rbenv/
 .serverauth.*
 .streamline/
 .sqlworkbench/
+.vagrant.d/
 
 # Linux
 *~
@@ -122,6 +126,8 @@ Library/
 Movies/
 Music/
 OneDrive/
+OneDrive - Microsoft/
 Pictures/
 Public/
 Sites/
+VirtualBox VMs/
