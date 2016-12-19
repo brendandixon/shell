@@ -2,8 +2,11 @@
 # Set up aliases
 #---------------------------------------------------------------------------------------
 alias d="docker"
-alias dm="docker-machine"
-alias dms="set_docker_machine"
+alias da="docker run -ti --rm -v /Users/brendan/Code/AzureAgent/:/root/agent brendandixon/agent"
+alias dao="docker run -ti --rm -v /Users/brendan/Code/AzureAgent/:/root/agent brendandixon/agentold"
+alias db="docker run -ti --rm -v /Users/brendan/Code/dotnet/:/root/dotnet brendandixon/dotnet"
+alias dc="docker run -ti --rm -v /Users/brendan/Code/:/root/osx brendandixon/cli"
+alias dw="docker run -ti --rm -v /Users/brendan/Code/WALinuxAgent/:/root/waagent brendandixon/wala"
 
 alias gc="pushd ~/Code/go/ 1>/dev/null"
 alias ga="pushd ~/Code/go/src/github.com/Azure/ 1>/dev/null"
