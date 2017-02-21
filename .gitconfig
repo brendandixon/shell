@@ -20,7 +20,7 @@
 	unstage = reset HEAD --
 [user]
 	name = Brendan Dixon
-	email = brendand@microsoft.com
+	email = brendandixon@me.com
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
