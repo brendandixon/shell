@@ -3,11 +3,14 @@
 .atom/
 .aws/
 .azure/
+.bash_sessions/
 .bashrc_private
+.bundle/
 .bundler/
 crontasks
 .dnx/
 .docker/
+.dotnet/
 .gem/
 .gemrc
 .idea/
@@ -15,14 +18,22 @@ crontasks
 .local/
 .kindle/
 .m2/
+.mitmproxy/
 .mono/
 .node-gyp/
+.node_repl_history
 .nuget
+.oracle_jre_usage/
+.pylint.d/
+.python_history
 .rbenv/
 .serverauth.*
 .streamline/
 .sqlworkbench/
 .vagrant.d/
+.vim/
+.vscode/
+.wapi/
 
 # Linux
 *~
