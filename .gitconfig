@@ -1,5 +1,5 @@
 [core]
-	editor = subl -w
+	editor = code -w
 	autocrlf = input
 	excludesfile = /Users/brendan/.gitignore_global
 [merge]
@@ -37,3 +37,7 @@
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
 	required = true
+[credential]
+	helper = osxkeychain
+[mergetool]
+	keepBackup = true
