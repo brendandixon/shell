@@ -1,4 +1,9 @@
 # General
+.499481.padl
+.adalcache
+.devaccounts
+.extaccounts
+.psql_history
 .android/
 .atom/
 .aws/
@@ -30,6 +35,7 @@ crontasks
 .serverauth.*
 .streamline/
 .sqlworkbench/
+.templateengine/
 .vagrant.d/
 .vim/
 .vscode/

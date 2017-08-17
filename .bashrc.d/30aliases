@@ -2,24 +2,21 @@
 # Set up aliases
 #---------------------------------------------------------------------------------------
 alias d="docker"
-alias da="docker run -ti --rm -v /Users/brendan/Code/AzureAgent/:/root/agent brendandixon/agent"
-alias dj="docker run -ti --rm -v /Users/brendan/Code/AzureAgent/:/root/agent brendandixon/agentj"
-alias dao="docker run -ti --rm -v /Users/brendan/Code/AzureAgent/:/root/agent brendandixon/agentold"
-alias db="docker run -ti --rm -v /Users/brendan/Code/dotnet/:/root/dotnet brendandixon/dotnet"
-alias dc="docker run -ti --rm -v /Users/brendan/Code/:/root/osx brendandixon/cli"
+alias da="docker run -ti --rm -v /Users/brendan/Code/AzureAgent/:/root/agent brendandixon/agentmsbuild"
+alias dj="docker run -ti --rm -v /Users/brendan/Code/AzureAgent/:/root/agent brendandixon/azure-agent"
+alias dc="docker run -ti --rm -v /Users/brendan/Code/:/root/code brendandixon/azure-cli"
 alias dw="docker run -ti --rm -v /Users/brendan/Code/WALinuxAgent/:/root/waagent brendandixon/wala"
 
 alias gc="pushd ~/Code/go/ 1>/dev/null"
 alias ga="pushd ~/Code/go/src/github.com/Azure/ 1>/dev/null"
 alias gb="pushd ~/Code/go/src/github.com/brendandixon/ 1>/dev/null"
 
+alias ak="pbcopy < ~/.ssh/azure_rsa.pub"
+
 alias l='less'
 
 alias ll='ls -lF'
 alias la='ls -AlF'
-
-alias m14='sshfs brendand@brendand-ub14.cloudapp.net:/ /Users/brendan/Code/brendand-ub14 -o auto_cache -o IdentityFile=/Users/brendan/.ssh/azure_rsa'
-alias u14='umount /Users/brendan/Code/brendand-ub14'
 
 alias flushc='dscacheutil -flushcache;sudo killall -HUP mDNSResponder'
 

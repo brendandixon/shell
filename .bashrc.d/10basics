@@ -11,6 +11,8 @@ export GOROOT=/usr/local/opt/go/libexec
 export GOBIN=$GOPATH/bin
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH:$GOBIN:$GOROOT
 
+export BaseIntermediateOutputPath=./.macOS
+
 # Docker exports
 export GOPATH=$GOPATH:$GOPATH/src/github.com/docker/docker/vendor
 export DOCKER_CLIENTONLY=1
