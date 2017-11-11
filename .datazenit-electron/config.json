@@ -1,0 +1,8 @@
+{
+  "keys": {
+    "Fuzzy Search": "CmdOrCtrl+T",
+    "New Connection": "CmdOrCtrl+N",
+    "Focus Grid": "CmdOrCtrl+G",
+    "Run Query": "CmdOrCtrl+R"
+  }
+}

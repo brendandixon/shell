@@ -1,7 +1,7 @@
 #---------------------------------------------------------------------------------------
 # Set up standard BASH variables
 #---------------------------------------------------------------------------------------
-export EDITOR="subl"
+export EDITOR="code"
 export HISTIGNORE=' *:&'
 export LESS='-RnqS'
 export TERM=xterm-color

@@ -2,10 +2,6 @@
 # Set up aliases
 #---------------------------------------------------------------------------------------
 alias d="docker"
-alias da="docker run -ti --rm -v /Users/brendan/Code/AzureAgent/:/root/agent brendandixon/agentmsbuild"
-alias dj="docker run -ti --rm -v /Users/brendan/Code/AzureAgent/:/root/agent brendandixon/azure-agent"
-alias dc="docker run -ti --rm -v /Users/brendan/Code/:/root/code brendandixon/azure-cli"
-alias dw="docker run -ti --rm -v /Users/brendan/Code/WALinuxAgent/:/root/waagent brendandixon/wala"
 
 alias gc="pushd ~/Code/go/ 1>/dev/null"
 alias ga="pushd ~/Code/go/src/github.com/Azure/ 1>/dev/null"
