@@ -8,6 +8,7 @@
 .atom/
 .aws/
 .azure/
+.babel.json
 .bash_sessions/
 .bashrc_private
 .bundle/
@@ -20,11 +21,13 @@ crontasks
 .gemrc
 .idea/
 .irb*
-.local/
+.jspm/
 .kindle/
+.local/
 .m2/
 .mitmproxy/
 .mono/
+.netrc
 .node-gyp/
 .node_repl_history
 .nuget
@@ -40,6 +43,8 @@ crontasks
 .vim/
 .vscode/
 .wapi/
+.yarnrc
+.zoomus/
 
 # Linux
 *~
@@ -135,6 +140,7 @@ tmp/
 Applications/
 Azure/
 Code/
+Creative Cloud Files/
 Desktop/
 Documents/
 Downloads/

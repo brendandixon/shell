@@ -2,12 +2,14 @@
 # Set up aliases
 #---------------------------------------------------------------------------------------
 alias d="docker"
+alias dc="docker-compose"
+alias dcr="docker-compose run --rm"
 
 alias gc="pushd ~/Code/go/ 1>/dev/null"
-alias ga="pushd ~/Code/go/src/github.com/Azure/ 1>/dev/null"
 alias gb="pushd ~/Code/go/src/github.com/brendandixon/ 1>/dev/null"
 
-alias ak="pbcopy < ~/.ssh/azure_rsa.pub"
+alias ob="open http://localhost:8080/"
+alias og="open http://localhost:3000/"
 
 alias l='less'
 
